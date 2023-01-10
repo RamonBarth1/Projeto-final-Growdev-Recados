@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Fuzzy Bubbles';
+
+}
+
+body {
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #9e5cdb 100%);
+}
+
+.detalhes {
+  padding-left: 10px;
+}
+
+hr {
+  margin-top: 50px;
+}
+
+#descricao {
+  width: 15vw;
+  padding: 5px;
+  color: black;
+  font-size: 15px;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: gainsboro;
+  margin-left: 10px;
+}
+
+#detalhamento {
+  width: 20vw;
+  padding: 5px;
+  color: black;
+  font-size: 15px;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: gainsboro;
+}
+
+
+table {
+  margin-top: 100px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+
+th {
+  padding: 10px;
+  border-bottom: 2px solid black;
+
+
+}
+
+td {
+  padding: 10px;
+  text-align: justify;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+#tabela {
+  text-align: center;
+  font-family: 'Fuzzy Bubbles';
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#buttonSair {
+  background: #8d6fb0;
+  background-image: -webkit-linear-gradient(top, #8d6fb0, #2980b9);
+  background-image: -moz-linear-gradient(top, #8d6fb0, #2980b9);
+  background-image: -ms-linear-gradient(top, #8d6fb0, #2980b9);
+  background-image: -o-linear-gradient(top, #8d6fb0, #2980b9);
+  background-image: linear-gradient(to bottom, #8d6fb0, #2980b9);
+  margin-top: 6px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+}
+
+#buttonSair:hover {
+  background: #bad6e8;
+  text-decoration: none;
+}
+
+#titulo {
+  width: 13vw;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+#buttonRecadosSalvar {
+  background: #8d6fb0;
+  background-image: -webkit-linear-gradient(top, #8d6fb0, #2980b9);
+  background-image: -moz-linear-gradient(top, #8d6fb0, #2980b9);
+  background-image: -ms-linear-gradient(top, #8d6fb0, #2980b9);
+  background-image: -o-linear-gradient(top, #8d6fb0, #2980b9);
+  background-image: linear-gradient(to bottom, #8d6fb0, #2980b9);
+  margin-top: 10px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+}
+
+#buttonRecadosSalvar:hover {
+  background: #bad6e8;
+  text-decoration: none;
+}
+
+.buttonRecados {
+  width: 5vw;
+  margin-right: 10px;
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buttonRecados:hover {
+  background: #8f2dda;
+  text-decoration: none;
+}
